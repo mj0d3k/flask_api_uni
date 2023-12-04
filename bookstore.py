@@ -1,13 +1,9 @@
-from flask import Flask
+from flask import Flask, jsonify
 import json
 
 bookstore = Flask(__name__)
 
 
-with open('books.json') as json_data:
-    result = []
-    data = json.load(json_data)
-    for book in data['books']:
 
 
 
